@@ -10,6 +10,7 @@ import Buy from './pages/Buy';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
+import RotaDupla from './pages/RotaDupla';
 
 const router = createBrowser([
   {
@@ -30,6 +31,9 @@ const router = createBrowser([
       },{
         path:'/Contact',
         element:<Contact/>
+      },{
+        path:'dupla/rota',
+        element:<RotaDupla/>
       },{
         path:"*",
         element:<Error/>
