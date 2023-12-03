@@ -30,6 +30,9 @@ const router = createBrowser([
       },{
         path:'/Contact',
         element:<Contact/>
+      },{
+        path:"*",
+        element:<Error/>
       }
     ]
   }])
@@ -39,6 +42,7 @@ root.render(
   <React.StrictMode>
   
       <RouterProvider router={router}/>
+      
   </React.StrictMode>
 );
 
