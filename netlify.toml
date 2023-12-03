@@ -7,3 +7,18 @@
   from = "/dupla/rota"
   to = "/index.html"
   status = 200
+
+  [[redirects]]
+  from = "/dupla/rota"
+  to = "/index.html"
+  status = 404
+
+  [[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404
+
+  [[redirects]]
+  from = "*"
+  to = "/index.html"
+  status = 404

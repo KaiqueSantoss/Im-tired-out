@@ -1,7 +1,7 @@
 
 
 const RotaDupla = () => {
-    return ( <> 
+    return ( <div> 
         Rota Dupla Rota Dupla Rota Dupla Rota Dupla
         Rota Dupla Rota Dupla Rota Dupla Rota Dupla
         Rota Dupla Rota Dupla Rota Dupla Rota Dupla
@@ -9,7 +9,7 @@ const RotaDupla = () => {
         Rota Dupla Rota Dupla Rota Dupla Rota Dupla
         Rota Dupla Rota Dupla Rota Dupla Rota Dupla
         Rota Dupla Rota Dupla Rota Dupla Rota Dupla
-    </>  );
+    </div>  );
 }
  
 export default RotaDupla;
