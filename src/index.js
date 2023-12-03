@@ -32,7 +32,7 @@ const router = createBrowser([
         path:'/Contact',
         element:<Contact/>
       },{
-        path:'dupla/rota',
+        path:'/dupla/rota',
         element:<RotaDupla/>
       },{
         path:"*",
